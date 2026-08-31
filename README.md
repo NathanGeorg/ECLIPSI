@@ -1,2 +1,2 @@
-# ECLPSI
+# ECLIPSI
 One app for health.
