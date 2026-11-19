@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ECLIPSI MVP</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; color: #26233a; }
+    section { border: 1px solid #ddd; border-radius: 12px; padding: 1rem; margin: 1rem 0; }
+    input, select, button { padding: .6rem; margin: .25rem; }
+    .error { color: #b00020; } .card { border-left: 4px solid #6558d9; padding: .5rem; margin: .5rem 0; }
+  </style>
+</head>
+<body>
+  <h1>ECLIPSI MVP</h1>
+  <p>Cliente mínimo acadêmico conectado à API real.</p>
+  <section>
+    <h2>Login</h2>
+    <input id="email" type="email" value="pac1@example.com" aria-label="E-mail">
+    <input id="password" type="password" value="Demo123!" aria-label="Senha">
+    <button id="login">Entrar</button>
+    <div id="loginResult"></div>
+  </section>
+  <section>
+    <h2>Profissionais</h2>
+    <input id="specialty" placeholder="Especialidade">
+    <button id="search">Buscar</button>
+    <div id="professionals"></div>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
